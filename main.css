@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Roboto');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.content{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1366px !important;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Bungee Shade', cursive;
+}
+
+h1{
+  font-size: 60px;
+
+}
+
+img{
+  max-width: 250px;
+  width: 100%;
+}
+
+.subpage{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.work{
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.clips{
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pub{
+  font-style: italic;
+  font-size: 50%;
+}
+
+#hero{
+
+}
+
+#services{
+}
+
+#contact{
+}
+
+#footer{
+  order:99;
+  font-size: 8px;
+}
